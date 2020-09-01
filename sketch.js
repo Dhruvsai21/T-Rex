@@ -55,7 +55,7 @@ function draw()
   
   text("SCORE:" + score, 500,50)
   
- // trex.collide(inviground);
+  trex.collide(inviground);
   
   if (gameState === PLAY)
   {
